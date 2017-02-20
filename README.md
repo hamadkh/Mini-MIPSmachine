@@ -49,3 +49,5 @@ To test the MIPS machine write a simple program that includes arithmetic (add, s
 1. The assembly source of the test program with comments explaining the algortihm
 2. The machine code (the contents of the memory)
 3. Simulation results obtained by running the Verilog program. To monitor the execution of the test program for each instruction display the value at the write data input of the register file. For the branch instructions show results from both decisions (branch taken and branch not taken). Show the PC in the simulation output. For the pipelined processor show results with and without nop's that demonstarte the pipeline hazards.
+
+@hamadkhawaja @cody @heathloader
