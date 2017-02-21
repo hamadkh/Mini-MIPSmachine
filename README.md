@@ -25,7 +25,7 @@ Use gate-level modeling for all components unless otherwise specified. The machi
 
     or	0011
 
-    addi	0100
+    addi 0100
 
     lw	0101
 
