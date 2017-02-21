@@ -16,27 +16,40 @@ Use gate-level modeling for all components unless otherwise specified. The machi
 ##Instruction set
 
 ##Instruction	Opcode
-add	0000
-sub	0001
-and	0010
-or	0011
-addi	0100
-lw	0101
-sw	0110
-slt	0111
-beq	1000
-bne	1001
+
+    add	0000
+
+    sub	0001
+
+    and	0010
+
+    or	0011
+
+    addi	0100
+
+    lw	0101
+
+    sw	0110
+
+    slt	0111
+
+    beq	1000
+
+    bne	1001
 
 ##Instruction formats:
 
-R-format (add, sub, and, or, slt)
+   R-format (add, sub, and, or, slt)
 
-op	rs	rt	rd	unused
-4	2	2	2	6
-I-format (addi, lw, sw, beq, bne)
+    op	rs	rt	rd	unused
 
-op	rs	rt	address / value
-4	2	2	8
+    4	  2	  2	  2	  6
+
+   I-format (addi, lw, sw, beq, bne)
+
+    op	rs	rt	address / value
+
+    4	  2	  2	  8
 
 ##Restrictions:
 
