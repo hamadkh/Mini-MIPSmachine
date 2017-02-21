@@ -43,13 +43,13 @@ Use gate-level modeling for all components unless otherwise specified. The machi
 
     op	rs	rt	rd	unused
 
-    4	  2	  2	  2	  6
+    4	2	 2	 2	  6
 
    I-format (addi, lw, sw, beq, bne)
 
     op	rs	rt	address / value
 
-    4	  2	  2	  8
+    4	2	 2	  8
 
 ##Restrictions:
 
